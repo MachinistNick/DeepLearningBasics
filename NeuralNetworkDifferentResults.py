@@ -1,3 +1,9 @@
+from numpy.random import seed
+seed(1)
+import tensorflow
+tensorflow.random.set_seed(2)
+
+
 from pandas import DataFrame
 from pandas import concat
 from keras.models import Sequential
